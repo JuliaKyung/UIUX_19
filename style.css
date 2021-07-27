@@ -1,0 +1,131 @@
+body {
+    background-color: #E2FAFF;
+}
+
+.logo {
+    float: left;
+    width: 49px;
+    border-radius: 50%;
+}
+.nav {
+    overflow: hidden;
+}
+.nav a {
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav a:hover{
+    color: #BC1853;
+}
+
+.rightNav {
+    float: right;
+}
+
+hr {
+    background: #9AE5F5;
+    height: 2px;
+    border: none;
+}
+
+.hero {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.heroImage{
+    border-radius: 50%;
+    width: 200px;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hero h1 {
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #BC1853;
+}
+.workPreview {
+    display: grid;
+    margin: auto;
+    width: 50%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.prevImg {
+    float: left;
+    margin: 15px;
+    border: 3px solid #9AE5F5;
+    border-radius: 20px;
+}
+.theRest {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+.aboutMe {
+    width: 50%;
+    margin: auto;
+}
+.aboutMe h1 {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mySkills {
+    width: 50%;
+    margin: auto;
+}
+.mySkills h1 {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mySkills h3 {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.containerFlex {
+    display: flex;
+}
+.containerFlex > div {
+    margin: 10px;
+}
+@media only screen and (max-width: 700px) {
+    .logo {
+        display: none;
+    }
+    .rightNav {
+        display: none;
+    }
+    .heroImage {
+        width: 40%;
+    }
+    .aboutMe {
+        width: 100%;
+    }
+    .mySkills {
+        width: 100%;
+    }
+}
