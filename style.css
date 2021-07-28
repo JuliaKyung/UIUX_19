@@ -75,11 +75,18 @@ footer a:hover {
     width: 50%;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.prevImg {
+.prevImg1, .prevImg2, .prevImg3 {
     float: left;
-    margin: 15px;
     border: 3px solid #9AE5F5;
     border-radius: 20px;
+    position: relative;
+}
+.containerDiv {
+    background-color: black;
+    float: left;
+    margin: 15px;  
+    border-radius: 20px; 
+    position: relative;
 }
 .theRest {
     clear: both;
@@ -111,6 +118,13 @@ footer a:hover {
 }
 .containerFlex > div {
     margin: 10px;
+}
+.viewProject {
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    left: 135px;
+    color: white;
 }
 @media only screen and (max-width: 700px) {
     .logo {
